@@ -49,6 +49,7 @@ aside{
 .logo{
     font-weight: 400;
     font-size: 1.3rem;
+    padding: 2rem;
 }
 
 .menu {
@@ -113,6 +114,18 @@ aside{
 
 .boton-carrito{
     margin-top: 2rem;
+}
+.numerito {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: .15rem .25rem;
+    border-radius: .25rem;
+}
+
+.boton-carrito.active .numerito {
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+
 }
 
 
@@ -268,3 +281,4 @@ main {
 .disabled {
     display: none;
 }
+
